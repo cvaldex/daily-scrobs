@@ -1,0 +1,21 @@
+{
+  "name": "daily-scrobblings",
+  "version": "1.0.0",
+  "description": "Muestra los scrobblings Diarios de la cuenta de cvaldex",
+  "author": "cvaldex <cvaldex@gmail.com> (http://cvaldex.blogspot.com)",
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "express": "~4.16.2"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "license": "ISC"
+}

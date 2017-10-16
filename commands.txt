@@ -1,0 +1,9 @@
+
+
+docker build -t cvaldex/daily-scrobs .
+docker push cvaldex/daily-scrobs
+
+oc new-app --docker-image=cvaldex/daily-scrobs:latest
+
+#http://daily-scrobs-cvaldex.a3c1.starter-us-west-1.openshiftapps.com/lastfm-today.html
+#ideaton-hackatonteleton.rhcloud.com/lastfm-today.html
